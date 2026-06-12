@@ -4,7 +4,7 @@ const formulario = document.getElementById("form-contacto");
 // Verificamos que el formulario exista
 if (formulario) {
 
-```
+
 // Escuchamos el evento submit
 formulario.addEventListener("submit", function (event) {
 
@@ -51,6 +51,5 @@ formulario.addEventListener("submit", function (event) {
     formulario.reset();
 
 });
-```
 
 }
